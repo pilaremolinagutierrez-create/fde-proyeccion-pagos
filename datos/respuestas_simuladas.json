@@ -1,0 +1,21 @@
+{
+  "_comentario": "Respuestas de prueba para MODO_SIMULADO=1. Sirven para verificar que todo funciona sin clave. NO son evidencia.",
+  "COT-2026-001": {"es_cotizacion": true, "proveedor": "Taller Confecciones del Sur", "tipo_gasto": "taller", "moneda": "ARS", "monto_total": 5760000,
+    "pagos": [{"concepto": "adelanto", "porcentaje": 40, "monto": 2304000, "fecha_pago": "2026-11-10", "fecha_es_estimada": false},
+              {"concepto": "saldo", "porcentaje": 60, "monto": 3456000, "fecha_pago": "2026-12-15", "fecha_es_estimada": true}],
+    "datos_faltantes": [], "confianza": 0.95},
+  "COT-2026-002": {"es_cotizacion": true, "proveedor": "Textil Norte SA", "tipo_gasto": "telas", "moneda": "USD", "monto_total": 14700,
+    "pagos": [{"concepto": "cuota", "porcentaje": 50, "monto": 7350, "fecha_pago": "2026-12-20", "fecha_es_estimada": true},
+              {"concepto": "cuota", "porcentaje": 50, "monto": 7350, "fecha_pago": "2027-01-19", "fecha_es_estimada": true}],
+    "datos_faltantes": [], "confianza": 0.9},
+  "COT-2026-003": {"es_cotizacion": true, "proveedor": "Ningbo Knitwear Co. Ltd", "tipo_gasto": "importacion", "moneda": "USD", "monto_total": 38500,
+    "pagos": [{"concepto": "adelanto", "porcentaje": 30, "monto": 11550, "fecha_pago": "2026-11-03", "fecha_es_estimada": true},
+              {"concepto": "saldo", "porcentaje": 70, "monto": 26950, "fecha_pago": "2027-01-05", "fecha_es_estimada": true}],
+    "datos_faltantes": ["costos de flete, seguro y nacionalización"], "confianza": 0.85},
+  "COT-2026-004": {"es_cotizacion": true, "proveedor": null, "tipo_gasto": "avios", "moneda": "ARS", "monto_total": 900000,
+    "pagos": [{"concepto": "adelanto", "porcentaje": 50, "monto": 450000, "fecha_pago": "2026-10-27", "fecha_es_estimada": true},
+              {"concepto": "saldo", "porcentaje": 50, "monto": 450000, "fecha_pago": null, "fecha_es_estimada": true}],
+    "datos_faltantes": ["nombre del proveedor", "fecha de entrega y pago del saldo (noviembre o diciembre)"], "confianza": 0.5},
+  "_fuera_de_tema": {"es_cotizacion": false, "motivo_rechazo": "El mensaje es una consulta interna sobre una reunión, no una cotización.",
+    "pagos": [], "datos_faltantes": [], "confianza": 0.98}
+}

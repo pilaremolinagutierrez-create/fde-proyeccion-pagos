@@ -1,0 +1,37 @@
+[
+  {
+    "id_carga": "COT-2026-001",
+    "area_origen": "produccion",
+    "fecha_carga": "2026-10-27",
+    "descripcion": "Taller de confección - mail formal",
+    "texto": "Asunto: Presupuesto N° 0457 - Remeras básicas\nBuenas tardes, les paso la cotización solicitada.\nProveedor: Taller Confecciones del Sur (nombre ficticio)\n1.200 remeras modelo básico, talles S a XL, a $ 4.800 por unidad. Total: $ 5.760.000 (precio final, IVA incluido).\nForma de pago: 40% de adelanto al confirmar el pedido, a más tardar el 10/11/2026. 60% restante contra entrega.\nEntrega estimada: 15/12/2026.\nSaludos."
+  },
+  {
+    "id_carga": "COT-2026-002",
+    "area_origen": "produccion",
+    "fecha_carga": "2026-10-27",
+    "descripcion": "Telas - fila pegada de Excel",
+    "texto": "Proveedor\tArtículo\tCantidad\tPrecio unit.\tTotal\tCondición de pago\tFecha factura\nTextil Norte SA (ficticio)\tJersey algodón 24/1\t3500 m\tUSD 4,20\tUSD 14.700\t50% a 30 días FF / 50% a 60 días FF\t20/11/2026"
+  },
+  {
+    "id_carga": "COT-2026-003",
+    "area_origen": "comercio_exterior",
+    "fecha_carga": "2026-10-27",
+    "descripcion": "Importación - proforma en inglés",
+    "texto": "PROFORMA INVOICE PI-2026-118\nSupplier: Ningbo Knitwear Co. Ltd (fictitious)\nGoods: 5,000 pcs knit sweaters, women, assorted colors\nTotal amount: FOB Shanghai USD 38,500.00\nPayment terms: 30% T/T deposit upon order confirmation, 70% balance against copy of B/L.\nOrder date: 03/11/2026. Estimated time of departure (ETD): 05/01/2027.\nNote: freight, insurance and import duties not included."
+  },
+  {
+    "id_carga": "COT-2026-004",
+    "area_origen": "produccion",
+    "fecha_carga": "2026-10-27",
+    "descripcion": "CONFUSA - audio transcripto de WhatsApp",
+    "texto": "che, hablé con el de los avíos, me dijo que los botones y las etiquetas de la colección salen como 900 lucas, que le paguemos la mitad ahora y lo otro cuando entregue, creo que es para fin de mes pero no me acuerdo si dijo noviembre o diciembre"
+  },
+  {
+    "id_carga": "COT-2026-005",
+    "area_origen": "produccion",
+    "fecha_carga": "2026-10-27",
+    "descripcion": "FUERA DE TEMA - mensaje que no es una cotización",
+    "texto": "Hola! ¿A qué hora es la reunión de gerentes del viernes y quién lleva las medialunas?"
+  }
+]

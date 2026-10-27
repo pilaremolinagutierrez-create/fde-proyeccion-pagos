@@ -1,0 +1,201 @@
+[
+  {
+    "descripcion": "Taller de confección - mail formal",
+    "ok": true,
+    "id_carga": "COT-2026-001",
+    "modelo": "claude-haiku-5-5",
+    "simulado": false,
+    "intentos": 1,
+    "valido_primer_intento": true,
+    "tokens_entrada": 2168,
+    "tokens_salida": 824,
+    "costo_usd": 0.000629,
+    "latencia_ms": 5417.8,
+    "salida": {
+      "es_cotizacion": true,
+      "motivo_rechazo": null,
+      "proveedor": "Taller Confecciones del Sur",
+      "tipo_gasto": "taller",
+      "moneda": "ARS",
+      "monto_total": 5760000.0,
+      "pagos": [
+        {
+          "concepto": "adelanto",
+          "porcentaje": 40.0,
+          "monto": 2304000.0,
+          "fecha_pago": "2026-11-10",
+          "fecha_es_estimada": false
+        },
+        {
+          "concepto": "saldo",
+          "porcentaje": 60.0,
+          "monto": 3456000.0,
+          "fecha_pago": "2026-12-15",
+          "fecha_es_estimada": true
+        }
+      ],
+      "datos_faltantes": [
+        "confirmar fecha real de entrega, ya que la fecha del saldo (contra entrega) es estimada",
+        "la cotización indica 'nombre ficticio' para el proveedor: confirmar el nombre legal antes de cargar"
+      ],
+      "confianza": 0.9
+    },
+    "error": null
+  },
+  {
+    "descripcion": "Telas - fila pegada de Excel",
+    "ok": true,
+    "id_carga": "COT-2026-002",
+    "modelo": "claude-haiku-5-5",
+    "simulado": false,
+    "intentos": 1,
+    "valido_primer_intento": true,
+    "tokens_entrada": 2076,
+    "tokens_salida": 665,
+    "costo_usd": 0.00054,
+    "latencia_ms": 3409.6,
+    "salida": {
+      "es_cotizacion": true,
+      "motivo_rechazo": null,
+      "proveedor": "Textil Norte SA",
+      "tipo_gasto": "telas",
+      "moneda": "USD",
+      "monto_total": 14700.0,
+      "pagos": [
+        {
+          "concepto": "cuota",
+          "porcentaje": 50.0,
+          "monto": 7350.0,
+          "fecha_pago": "2026-12-20",
+          "fecha_es_estimada": true
+        },
+        {
+          "concepto": "cuota",
+          "porcentaje": 50.0,
+          "monto": 7350.0,
+          "fecha_pago": "2027-01-19",
+          "fecha_es_estimada": true
+        }
+      ],
+      "datos_faltantes": [],
+      "confianza": 0.9
+    },
+    "error": null
+  },
+  {
+    "descripcion": "Importación - proforma en inglés",
+    "ok": true,
+    "id_carga": "COT-2026-003",
+    "modelo": "claude-haiku-5-5",
+    "simulado": false,
+    "intentos": 1,
+    "valido_primer_intento": true,
+    "tokens_entrada": 2150,
+    "tokens_salida": 1068,
+    "costo_usd": 0.000749,
+    "latencia_ms": 5411.3,
+    "salida": {
+      "es_cotizacion": true,
+      "motivo_rechazo": null,
+      "proveedor": "Ningbo Knitwear Co. Ltd",
+      "tipo_gasto": "importacion",
+      "moneda": "USD",
+      "monto_total": 38500.0,
+      "pagos": [
+        {
+          "concepto": "adelanto",
+          "porcentaje": 30.0,
+          "monto": 11550.0,
+          "fecha_pago": null,
+          "fecha_es_estimada": false
+        },
+        {
+          "concepto": "saldo",
+          "porcentaje": 70.0,
+          "monto": 26950.0,
+          "fecha_pago": null,
+          "fecha_es_estimada": false
+        }
+      ],
+      "datos_faltantes": [
+        "Fecha de confirmación del pedido para el adelanto del 30%, porque la fecha 03/11/2026 no se puede interpretar con certeza (3 de noviembre o 11 de marzo)",
+        "Fecha del pago del saldo del 70%, que se paga contra copia del B/L y depende de la fecha de embarque; la ETD 05/01/2027 también tiene formato ambiguo",
+        "Costos de flete, seguro y aranceles de importación, que la proforma indica como no incluidos y no figuran en los pagos",
+        "Confirmar si el proveedor es real, porque la proforma aclara \"(fictitious)\""
+      ],
+      "confianza": 0.7
+    },
+    "error": null
+  },
+  {
+    "descripcion": "CONFUSA - audio transcripto de WhatsApp",
+    "ok": true,
+    "id_carga": "COT-2026-004",
+    "modelo": "claude-haiku-5-5",
+    "simulado": false,
+    "intentos": 1,
+    "valido_primer_intento": true,
+    "tokens_entrada": 2061,
+    "tokens_salida": 791,
+    "costo_usd": 0.000602,
+    "latencia_ms": 4378.6,
+    "salida": {
+      "es_cotizacion": true,
+      "motivo_rechazo": null,
+      "proveedor": null,
+      "tipo_gasto": "avios",
+      "moneda": "ARS",
+      "monto_total": 900000.0,
+      "pagos": [
+        {
+          "concepto": "adelanto",
+          "porcentaje": 50.0,
+          "monto": 450000.0,
+          "fecha_pago": "2026-10-27",
+          "fecha_es_estimada": true
+        },
+        {
+          "concepto": "saldo",
+          "porcentaje": 50.0,
+          "monto": 450000.0,
+          "fecha_pago": null,
+          "fecha_es_estimada": true
+        }
+      ],
+      "datos_faltantes": [
+        "nombre del proveedor de avíos",
+        "confirmar que el monto está en pesos (ARS)",
+        "fecha del pago del saldo: fin de mes, no se sabe si noviembre o diciembre",
+        "fecha de entrega de botones y etiquetas",
+        "fecha exacta del adelanto (se asumió la fecha de carga)"
+      ],
+      "confianza": 0.6
+    },
+    "error": null
+  },
+  {
+    "descripcion": "FUERA DE TEMA - mensaje que no es una cotización",
+    "ok": true,
+    "id_carga": "COT-2026-005",
+    "modelo": "claude-haiku-5-5",
+    "simulado": false,
+    "intentos": 1,
+    "valido_primer_intento": true,
+    "tokens_entrada": 2000,
+    "tokens_salida": 139,
+    "costo_usd": 0.000269,
+    "latencia_ms": 1571.7,
+    "salida": {
+      "es_cotizacion": false,
+      "motivo_rechazo": "El texto es una consulta sobre una reunión de gerentes y quién lleva medialunas, no una cotización ni pedido de pago a un proveedor.",
+      "proveedor": null,
+      "tipo_gasto": null,
+      "moneda": null,
+      "monto_total": null,
+      "pagos": [],
+      "datos_faltantes": [],
+      "confianza": 0.95
+    },
+    "error": null
+  }
+]

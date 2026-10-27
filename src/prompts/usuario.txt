@@ -1,0 +1,8 @@
+Fecha de carga: {fecha_carga}
+Área que carga: {area_origen}
+Id de carga: {id_carga}
+
+Cotización recibida:
+"""
+{texto}
+"""
